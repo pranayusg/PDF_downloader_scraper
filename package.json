@@ -1,0 +1,23 @@
+{
+  "name": "pdf_downloader_scraper",
+  "version": "1.0.0",
+  "description": "pdf downloader and scraper",
+  "main": "ExtractImagePDFData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pranayusg",
+  "license": "ISC",
+  "dependencies": {
+    "fresh-tabula-js": "^2.0.0",
+    "fs": "0.0.1-security",
+    "node-downloader-helper": "^1.0.17",
+    "pdf-table-extractor": "^1.0.3",
+    "pdf2json": "^1.2.0",
+    "q": "^1.5.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "request-promise-native": "^1.0.9",
+    "tabula-js": "^1.0.1"
+  }
+}
