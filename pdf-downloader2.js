@@ -2,7 +2,7 @@ const { DownloaderHelper } = require('node-downloader-helper');
 
 options =
 {
-    fileName: 'pdf-downloader2.pdf'
+    fileName: 'pdf-downloaded2.pdf'
 }
 
 const download = new DownloaderHelper('https://investors.tatamotors.com/financials/72-ar-html/pdf/Introducing-Tata-Motors.pdf', './PDFs', options);

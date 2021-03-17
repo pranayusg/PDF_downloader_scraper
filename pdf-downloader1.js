@@ -11,7 +11,7 @@ async function downloadPDF(pdfURL, outputFilename) {
     fs.writeFileSync(outputFilename, pdfBuffer);
 }
 
-downloadPDF(pdfURL, "./PDFs/pdf-downloader1.pdf");     
+downloadPDF(pdfURL, "./PDFs/pdf-downloaded1.pdf");     
 
 
 
